@@ -57,7 +57,7 @@ function App() {
   const showToast = (message, actionLabel, action,type = 'default') => {
     toast[type](
       ({ closeToast }) => (
-        <di className='flex justify-between items-center'>
+        <div className='flex justify-between items-center'>
           <span>{message}</span>
           <button
             onClick={() => {
@@ -68,7 +68,7 @@ function App() {
           >
             {actionLabel}
           </button>
-        </di>
+        </div>
       ),
       { autoClose: 5000 } // Auto close after 5 seconds
     );
