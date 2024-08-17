@@ -36,8 +36,8 @@ The application is designed with the following components:
 
 ## Setup and Running the Application
 1.**Clone the Repository**
-    git clone https://github.com/raianushka/todowithReact.git
-    cd todowithReact
+    -git clone https://github.com/raianushka/todowithReact.git
+    -cd todowithReact
 2.**Install Dependencies**
     npm install
 3.**Start the Application**
